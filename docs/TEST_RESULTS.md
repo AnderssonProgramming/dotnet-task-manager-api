@@ -308,6 +308,7 @@ cd src/TaskManagerApi
 dotnet run
 
 # 2. In another terminal, run tests
+cd tests
 .\test-crud.ps1
 ```
 
@@ -318,6 +319,7 @@ cd src/TaskManagerApi
 dotnet run
 
 # 2. In another terminal, run tests
+cd tests
 chmod +x test-crud.sh
 ./test-crud.sh
 ```

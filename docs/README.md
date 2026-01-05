@@ -59,6 +59,41 @@ Practical examples and test scenarios:
 
 ---
 
+### 🎯 [Project Summary](PROJECT_SUMMARY.md)
+Complete project overview:
+- Project statistics
+- Completed features
+- Architecture overview
+- Technology stack
+- Git commit history
+- Learning outcomes
+
+**Start here if you want to:** Get a quick overview of the entire project
+
+---
+
+### ✅ [Test Results](TEST_RESULTS.md)
+Comprehensive testing documentation:
+- CRUD operation tests
+- Test coverage summary
+- Validation tests
+- Error handling tests
+- Test execution instructions
+
+**Start here if you want to:** See test results, understand testing approach
+
+---
+- HTTP request examples
+- cURL commands
+- PowerShell scripts
+- Test scenarios
+- Validation tests
+- Quick test scripts
+
+**Start here if you want to:** Test the API, see practical examples
+
+---
+
 ## 🗂️ Project Root Documentation
 
 ### 📖 [README.md](../README.md)
@@ -99,6 +134,9 @@ Version history and changes:
 | **Set up for development** | → [Development Guide](DEVELOPMENT.md) |
 | **Understand the architecture** | → [Architecture Guide](ARCHITECTURE.md) |
 | **Test the API** | → [API Examples](EXAMPLES.md) |
+| **See test results** | → [Test Results](TEST_RESULTS.md) |
+| **Run automated tests** | → [Test Scripts](../tests/) |
+| **Project overview** | → [Project Summary](PROJECT_SUMMARY.md) |
 | **Contribute code** | → [Contributing Guidelines](../CONTRIBUTING.md) |
 | **Get started quickly** | → [Main README](../README.md) |
 
@@ -112,7 +150,17 @@ docs/
 ├── API.md                 # Complete API reference
 ├── ARCHITECTURE.md        # Architecture and design patterns
 ├── DEVELOPMENT.md         # Development setup and guide
-└── EXAMPLES.md            # Practical API examples
+├── EXAMPLES.md            # Practical API examples
+├── PROJECT_SUMMARY.md     # Complete project overview
+└── TEST_RESULTS.md        # Testing documentation
+```
+
+## 🧪 Testing Structure
+
+```
+tests/
+├── test-crud.ps1          # PowerShell automated test script
+└── test-crud.sh           # Bash automated test script
 ```
 
 ---

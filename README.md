@@ -59,6 +59,9 @@ TaskManagerApi/
 │       ├── Program.cs               # Application entry point
 │       ├── appsettings.json
 │       └── TaskManagerApi.csproj
+├── 📁 tests/                 # Test scripts
+│   ├── test-crud.ps1         # PowerShell test script
+│   └── test-crud.sh          # Bash test script
 ├── .gitignore
 ├── TaskManagerApi.sln
 └── README.md
